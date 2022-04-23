@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(232, 151, 215);
+}
+h1{
+    color: blue;
+    background-color: turquoise;
+
+}
+#show_sketch{
+    float: right;
+}
+#a1{
+    float: left;
+}
+canvas { border:5px solid white; 
+    border-radius:20px; 
+    animation-name: goodevening; 
+    animation-duration: 1s; 
+    margin-top: 90px; 
+    margin-right:50px; 
+    animation-iteration-count: infinite; }
+ @keyframes goodevening
+  { from {box-shadow: 1px 1px 38px rgb(58, 207, 21);} 
+ to {box-shadow: 1px 1px 38px white;} }
+p{
+    padding-top:10px ;
+    font-size: 25px;
+    
+}
